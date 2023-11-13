@@ -419,7 +419,7 @@ a {
 
 .modal-content{
   width:85%;
-  height:200px;
+  /* height:200px; */
   border-radius:15px;
   padding:20px;
   display:flex;
@@ -443,31 +443,77 @@ a {
   border-bottom: 1px solid #dddddd;
   /* background: #f8f8f8; */
   color:black;
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
+  padding-left:10px;
 }
 
 .md-d-a{
-  margin-top:20px;
+  margin-top:30px;
   display:flex;
   width:100%;
+  align-items:flex-end;
+  justify-content: flex-end;
 }
 
 .md-d-a button{
-  width:100%;
+  width:80px;
   border-radius:50px;
-  height:45px;
+  height:40px;
   outline:none;
   border:none;
-
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
 }
 
 .modal-content h2{
   color:black;
-  font-size:17px;
+  font-size:22px;
   text-align:left;
 }
 
 .dspadppapp{
   width:100%;
   display:flex;
-  margin-bottom:20px;
+  margin-bottom:5px;
+  flex-direction:column;
+}
+
+.cvffddf button{
+  cursor:pointer;
+  width:100px;
+  height:40px;
+  font-size:15px;
+  border-radius:50px;
+  border:none;
+  outline:none;
+  font-family: 'Open Sans', sans-serif;
+  background:#0070EF;
+  font-size:15px;
+
+}
+
+.dspadppapp p{
+  color:#636363;
+  font-size:15px;
+  line-height:1.7;
+  margin-top:10px;
+}
+
+.dsdddpdpep{
+  width:100%;
+  display:flex;
+  position:relative;
+}
+
+.pp0epp{
+  position:absolute;
+  top:13.5px;
+  left:0;
+}
+
+.pp0epp span{
+  font-size:15px; 
+  color:black;
+
 }

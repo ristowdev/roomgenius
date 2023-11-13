@@ -33,11 +33,11 @@ const ImageUploader: React.FC = () => {
 
   const handleImageClick = (event: React.MouseEvent<HTMLImageElement>) => {
     // Get the coordinates of the click
-    const { offsetX, offsetY } = event.nativeEvent;
-    setClickCoordinates({ x: offsetX, y: offsetY });
+    // const { offsetX, offsetY } = event.nativeEvent;
+    // setClickCoordinates({ x: offsetX, y: offsetY });
 
     // Open the modal
-    setIsModalOpened(true);
+    // setIsModalOpened(true);
   };
 
   const handleViewPointsClick = () => {
@@ -62,6 +62,11 @@ const ImageUploader: React.FC = () => {
     setClickCoordinates(null);
     setIsModalOpened(false);
   };
+
+  const handleClick = () => {
+
+    setIsModalOpened(true);
+  }
 
   console.log(markedPoints)
 
@@ -140,6 +145,9 @@ const ImageUploader: React.FC = () => {
             <div className='dpdpa'>
               <span>{'7'} objects selected.</span>
               <p>Select atleast 5 objects.</p>
+            </div>
+            <div className='cvffddf'>
+              <button onClick={()=>{handleClick()}}>Next</button>
             </div>
           </div>
 
